@@ -8,7 +8,15 @@ app.get('/tecnologia', function(req, res) {
 });
 
 app.get('/', function(req, res) {
-    res.send('<html><body>Portal de noticias</body></html>');
+    res.render('home/index');
+});
+
+app.get('/formulario_inclusao_noticia', function(req, res) {
+    res.render('admin/form_add_noticia');
+});
+
+app.get('/noticias', function(req, res) {
+    res.render('noticias/noticias');
 });
 
 app.listen(3000, function() {
