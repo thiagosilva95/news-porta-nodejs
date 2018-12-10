@@ -6,14 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thiagosilva95/news-porta-nodejs.git"
-  },
   "author": "Thiaog Henrique",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thiagosilva95/news-porta-nodejs/issues"
-  },
-  "homepage": "https://github.com/thiagosilva95/news-porta-nodejs#readme"
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
